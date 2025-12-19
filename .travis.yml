@@ -1,0 +1,15 @@
+language: python
+
+python:
+  - "3.10"
+  - "3.11"
+
+# تثبيت المتطلبات
+install:
+  - pip install --upgrade pip
+  - pip install -r requirements.txt
+
+# Build steps
+script:
+  - make lint
+  - make test
