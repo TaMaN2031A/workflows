@@ -1,5 +1,5 @@
 def add(x, y):
-    """Adder"""
+    """Adder function"""
     return x + y
 
 print(add(1, 1))
